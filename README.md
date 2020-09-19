@@ -13,7 +13,7 @@ Run the Desktop App
 
 Install Requirements
 ---------------
-pip3 -r requirements.txt
+pip3 install -r requirements.txt
 
 Interested in the code?
 ---------------
