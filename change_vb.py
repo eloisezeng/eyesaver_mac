@@ -27,6 +27,7 @@ class changeVB: # change virtual background
 
     def default(self, position): # default commands of VB
         self.ps.stop_video()
+        time.sleep(0.2)
         self.open_virt_settings()
         time.sleep(0.2)
         self.ps.click_VB(position)
