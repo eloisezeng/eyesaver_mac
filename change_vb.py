@@ -13,7 +13,7 @@ class changeVB: # change virtual background
         self.ps.click_arrow_to_right_stop_vid()
         time.sleep(0.2)
         self.ps.click_vb_settings()
-        time.sleep(0.2)
+        time.sleep(0.5)
 
     def thumbsup(self):
         self.ps.click_reactions() # click reactions button

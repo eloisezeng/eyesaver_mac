@@ -46,8 +46,6 @@ class PixelSettings:
         
     def stop_video(self):
         py.hotkey('command', 'shift', 'v') # stop video
-        # FIX THIS: for windows
-        # py.hotkey('alt', 'shift', 'v') # stop video
         
     def click_arrow_to_right_stop_vid(self):
         py.click(self.button_next_to_stop_vid[0],self.button_next_to_stop_vid[1])  # click on arrow on the right of stop video
