@@ -7,34 +7,48 @@ Main Advantages
 - Appear to stare at the screen when your eyes are taking a break, or if you're doing something else
 - Don't need to manually click the tiny buttons on Zoom
 
-How to install EyeSaver: For Non-technical People
+How to use EyeSaver: For Non-technical People
 ---------------
+## Installation
+### Prerequisites
 Install Node.js <br> Install Git <br> Install Python <br>
 ### Mac OS
 Copy this into your terminal to install everything you need to run EyeSaver. 
 
-git clone https://github.com/eloisezeng/eyesaver_mac
-cd eyesaver_mac
-pip3 install -r requirements.txt
-cd ..
-git clone https://github.com/eloisezeng/eyesaver_website
-cd eyesaver_website
-npm install
-cd ..
+git clone https://github.com/eloisezeng/eyesaver_mac <br>
+cd eyesaver_mac <br>
+pip3 install -r requirements.txt <br>
+cd .. <br>
+git clone https://github.com/eloisezeng/eyesaver_website <br>
+cd eyesaver_website <br>
+npm install <br>
+cd .. <br>
 
 ### Windows OS
 Copy this into your Powershell to install everything you need to run EyeSaver. 
 
-git clone https://github.com/eloisezeng/eyesaver_windows
-cd eyesaver_windows
-pip3 install -r requirements.txt
-cd ..
-git clone https://github.com/eloisezeng/eyesaver_website
-cd eyesaver_website
-npm install
-cd ..
+git clone https://github.com/eloisezeng/eyesaver_windows <br>
+cd eyesaver_windows <br>
+pip3 install -r requirements.txt <br>
+cd .. <br>
+git clone https://github.com/eloisezeng/eyesaver_website <br>
+cd eyesaver_website <br>
+npm install <br>
+cd .. <br>
 
-### Run this command and search for 192.168.X.X:3000 (ip address) on your phone
+## How to launch the desktop app
+Run this command in the Terminal for MacOS or the Powershell for WindowsOS: <br>
+cd eyesaver_mac; python3 local_server.py & cd .. && cd eyesaver_website ; npm start <br><br>
+Search the website, 192.168.X.X:3000 (ip address of your computer), on your mobile device
+### Find ip address on MacOS
+Go to System Preferences. Open Network. You should see your IP address (192.168.X.X) under "Turn Wi-Fi Off"
+### Find ip address on WindowsOS 
+Search for Wifi-Settings. Click Hardware properties. You should see your IP address (192.168.X.X) next to IPv4 address.
+
+#### Close the Terminal/Powershell when you want to shut down the webapp (no longer be able to access 192.168.X.X:3000)
+
+For Technical People
+---------------
 
 Install Requirements for people interested in forking
 ---------------
