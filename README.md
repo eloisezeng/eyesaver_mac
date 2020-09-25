@@ -8,6 +8,7 @@ Main Advantages
 - Don't need to manually click the tiny buttons on Zoom
 
 How to install EyeSaver: For Non-technical People
+---------------
 Install Node.js <br> Install Git <br> Install Python <br>
 ### Mac OS
 Copy this into your terminal to install everything you need to run EyeSaver. 
