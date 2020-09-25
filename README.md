@@ -24,5 +24,5 @@ Interested in the code?
 
 Contact
 ---------------
-eyesaver@gmail.com
+eloise.zeng@gmail.com
 
